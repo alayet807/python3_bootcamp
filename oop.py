@@ -156,7 +156,7 @@ class Food(ABC):
     def taste(self):
         pass
 
-class pizza(food):
+class pizza(Food):
     def size(self):
         print("hi")
 
